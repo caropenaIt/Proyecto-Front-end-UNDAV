@@ -19,28 +19,94 @@
     </nav>
 </header>
 <body>
-  <p>Pie de pagina</p>
+  <a href="#top"><p id="pie">Pie de pagina</p></a>
   <main>
       <p>Contactenos en el formulario a continuacion, donde podremos comunicarnos si desea poner en venta, en alquiler, tasar una propiedad; o incluso, para asistirlo en cualquier necesidad.</p>
   </main>
   <section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga id dignissimos ipsum quasi soluta aliquid? Minus itaque porro laboriosam, quidem, facere quas, nostrum veritatis odio placeat provident repellendus doloribus officiis.</p>
+    <form action="#">
+      <fieldset>    
+      <legend>Datos personales</legend>
+      <div>
+      <label>Nombre y apellido</label>
+        <input type="text" required>
+          <label>Mail</label>
+          <input type="email" required>
+          <label>Teléfono/Celular</label>
+            <input type="tel" required>
+          </div>
+          <div>
+              <label>Género:</label>
+              <label> Femenino </label>
+              <input type="radio" name="Genero" value="Femenino">
+              <label>Masculino</label>
+              <input type="radio" name="Genero" value="Masculino">
+              <label> Otro</label>
+              <input type="radio" name="Genero" value="Otro">
+          </div>
+          <div>
+              <label>comentarios:</label>
+              <textarea></textarea>
+          </div>
+          </fieldset>
+          <fieldset>
+              <div>
+              <legend>¿De dónde eres?</legend>
+              <label>Provincia</label>
+              <select>
+                  <option value="Elegir-Provincia">Elegir provincia</option>
+                  <option value="Bs.As">Buenos Aires</option>
+                  <option value="CBA">Córdoba</option>
+                  <option value="CABA">CABA-Buenos Aires</option>
+                  <option value="Salta">Salta</option>
+                  <option value="Neuquen">Neuquén</option>
+                  <option value="Chubut">Chubut</option>
+                  <option value="Tierra-del-Fuego">Tierra Del Fuego</option>
+                  <option value="San-Luis">San Luis</option>
+                  <option value="Santa-Rosa">Santa Rosa</option>
+                  <option value="Santa Cruz">Santa Cruz</option>
+                  <option value="Mendoza">Mendoza</option>
+                  <option value="La-Pampa">La Pampa</option>
+              </select>
+          </div>
+          <div>
+          </fieldset>
+              <label>Acepto terminos y condiciones</label>
+              <input type="checkbox" value="Acepto terminos y condiciones" required>
+              <input type="submit"  value="Enviar">
+              <input type="reset"  value="Restaurar">
+          </div>
+          </form>
+  </section>
+  <section>
+    <h2>También, puedes escribirnos al:</h2>
+    <p><img src="./media/whatsapp logo.png" alt="WhatsApp"> WhatsApp: 1199887766 (nuestro bot)</p>
+    <p><img src="./media/Gmail_icon_(2020).svg.png" alt="Gmail">Gmail: casitasinmboliriaria@gmail.com</p>
   </section>
   <section>
     <h2>Sucursales</h2>
     <ul>
       <li>Casitas Pilar: San Martin 1234 Pilar, Buenos Aires - Tel: 1122334455</li>
       <li>Casitas CABA: Juramento 5678 CABA, Buenos Aires - Tel: 1166778899</li>
-      <li>Casitas Santa Rosa: Sarmiento 9012 - Tel: 1144456789</li>
-      <li>Casitas Cordoba: GÜemes 2345 Córdoba - Tel: 1133225544</li>
+      <li>Casitas La Pampa: Sarmiento 9012 - Tel: 1144456789</li>
+      <li>Casitas Cordoba: Güemes 2345 Córdoba - Tel: 1133225544</li>
       <li>Casitas Santa Cruz: Av. Néstor Kirchner 2003 Río Gallegos, Santa Cruz - Tel: 1166889977</li>
+      <li>Casitas Salta: Av. San Martín 9101 Cafayate, Salta - Tel: 1166227733</li>
+      <li>Casitas San Luis: Belgrano 0123 Potrero de los Funes - Tel: 1155443322</li>
+      <li>Casitas Chubut: Perito Moreno 2345, Puerto Madryn, Chubut - Tel: 1199887766</li>
+      <li>Casitas Neuquén: 25 de Mayo 3456, Neuquén - Tel: 1133224466</li>
+      <li>Casitas Tierra Del Fuego: 2 de Abril 7689, Ushuaia - Tel: 1199228833</li>
+      <li>Casitas Mendoza: Viñas 1423, Las Leñas - Tel: 1166557722</li>
     </ul>
   </section>
   <footer>
-    <p>pie</p> 
+    <p>Seguinos en nuestras redes</p>
+    <p><img src="./media/facebook logo.png" alt="Facebook">Facebook</p>
+    <p><img src="./media/twitter logo.png" alt="Twitter">Twitter</p>
+    <p><img src="./media/ig logo.jpg" alt="Instagram">Instagram</p> 
   </footer>
-  <section>
-    <p>Volver arriba</p>
+  <section id="top">
+    <a href="#pie">Volver arriba</a>
   </section>
 </body>
 </html>
