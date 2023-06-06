@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(92, 92, 236);
+}
+li{
+    list-style-type: '🏘️';
+}
+p{
+    background-color: aliceblue;
+}
