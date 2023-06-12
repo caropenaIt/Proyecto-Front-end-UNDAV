@@ -1,9 +1,72 @@
+header{
+    text-align: justify;
+    background-color: rgb(65, 65, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.navbar{
+    background-color: rgb(40, 40, 187);
+    color: skyblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.navbar:hover{
+    background-color: rgb(76, 99, 231);
+}
+h1{
+    color: rgb(18, 18, 184);
+}
+.logo{
+    width: 120px;
+}
+
 body{
-    background-color: rgb(92, 92, 236);
+    background-color: rgb(111, 111, 241);
+    font-family: 'bitter';
+    text-align: center;
+    color: rgb(218, 216, 216);
 }
 li{
     list-style-type: '🏘️';
+    list-style-position: inside;
+    padding: 10px;
 }
-p{
+
+.aviso{
+    text-align: center;
+    border: 5px dotted yellow;
+    background-color: rgb(76, 48, 175);
+}
+.required{
+    color: red;
+    background-color: skyblue;
+}
+#pie{
     background-color: aliceblue;
+}
+#pie:hover{
+    background-color: rgb(194, 226, 255);
+}
+#top{
+    background-color: aliceblue;
+}
+#top:hover{
+    background-color: rgb(194, 226, 255);
+}
+footer{
+    text-align: justify;
+    background-color: rgb(65, 65, 241);
+}
+.otro-mark{
+    background-color: blue;
+    color: rgb(218, 216, 216);
 }

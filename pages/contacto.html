@@ -6,34 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shorcut icon" href="./media/logo-casita.png">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
     <title>Contacto</title>
 </head>
 <header>
-  <h1>Contacto</h1>
-  <img src="./media/logo-casita.png" alt="logo">
+  <img  class="logo" src="./media/logo-casita.png" alt="logo">
+  <h1>Casitas Inmobiliaria</h1>
   <nav>
-    <a href="../index.html">Home</a>
-    <a href="./comprar.html">Comprar</a>
-    <a href="./alquilar.html">Alquilar</a>
-    <a href="./contacto.html">Contacto</a>
-    <a href="./quienes-somos.html">Quienes somos</a>
+    <a class="navbar" href="../index.html">Home</a>
+    <a class="navbar" href="./comprar.html">Comprar</a>
+    <a class="navbar" href="./alquilar.html">Alquilar</a>
+    <a class="navbar" href="./contacto.html">Contacto</a>
+    <a class="navbar" href="./quienes-somos.html">Quienes somos</a>
     </nav>
 </header>
 <body>
-  <a href="#top"><p id="pie">Pie de pagina</p></a>
+  <a href="#top" id="pie">Pie de pagina</a>
+  <h2>Contacto</h2>
   <main>
       <p>Contactenos en el formulario a continuacion, donde podremos comunicarnos si desea poner en venta, en alquiler, tasar una propiedad; o incluso, para asistirlo en cualquier necesidad.</p>
   </main>
   <section>
     <form action="#">
+      <p class="required">* Campos obligatorios</p>
       <fieldset>    
       <legend>Datos personales</legend>
       <div>
-      <label>Nombre y apellido</label>
+      <label>Nombre y apellido *</label>
         <input type="text" required>
-          <label>Mail</label>
+          <label>Mail *</label>
           <input type="email" required>
-          <label>Teléfono/Celular</label>
+          <label>Teléfono/Celular *</label>
             <input type="tel" required>
           </div>
           <div>
@@ -72,7 +77,7 @@
           </div>
           <div>
           </fieldset>
-              <label>Acepto terminos y condiciones</label>
+              <label>Acepto terminos y condiciones *</label>
               <input type="checkbox" value="Acepto terminos y condiciones" required>
               <input type="submit"  value="Enviar">
               <input type="reset"  value="Restaurar">
@@ -107,10 +112,11 @@
     <p><img src="./media/twitter logo.png" alt="Twitter">Twitter</p>
     <p><img src="./media/ig logo.jpg" alt="Instagram">Instagram</p>
   </section>
-  <p>Este sitio web es ficticio, Si te gustó cómo quedó, contactarse por: ...</p>
+  <section class="aviso">
+    <p>Este sitio web es ficticio, Si te gustó cómo quedó, contactarse por: ...</p>
+    <p><mark class="otro-mark">Sitio web creado desde cero por Carolina Pena</mark></p>
+    </section>
   </footer>
-  <section id="top">
-    <a href="#pie">Volver arriba</a>
-  </section>
+    <a href="#pie" id="top">Volver arriba</a>
 </body>
 </html>
